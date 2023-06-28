@@ -1,1 +1,2 @@
-console.log('hi im workinddddddg wit222h sdf');
+import { loadIn } from "./loadin";
+loadIn();
