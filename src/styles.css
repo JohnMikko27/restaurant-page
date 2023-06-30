@@ -12,6 +12,7 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 2.5rem;
+  background-color: rgb(198, 46, 36);
 }
 
 nav {
@@ -26,6 +27,7 @@ nav > div {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: pink;
 }
 
 nav > div:hover {
@@ -36,6 +38,8 @@ nav > div:hover {
 #content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 #content > div {

@@ -29,7 +29,7 @@ export const loadIn = () => {
     const img = document.createElement('img');
 
     
-    aboutMessage.textContent = "This is one of The Master of Disaster's favorite foods";
+    aboutMessage.textContent = "This is one of The Master of Disaster's favorite foods! Rejoice and be glad as you now know!";
     img.src = food;
 
     imgContainer.appendChild(img);
