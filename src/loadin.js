@@ -1,5 +1,8 @@
 import './styles.css';
 import food from './download.jpeg';
+import { createHome } from './home';
+import { createContact } from './contact';
+import { createAbout } from './about';
 
 export const loadIn = () => {
     const body = document.querySelector('body');
@@ -11,13 +14,10 @@ export const loadIn = () => {
     header.appendChild(topMessage);
 
     const nav = document.createElement('nav');
-    const div = document.createElement('div');
-    const div2 = document.createElement('div');
-    const div3 = document.createElement('div');
+    const div = createHome();
+    const div2 = createAbout();
+    const div3 = createContact();
 
-    div.textContent = 'Home';
-    div2.textContent = 'About';
-    div3.textContent = 'Contact';
     
     nav.appendChild(div);
     nav.appendChild(div2);
