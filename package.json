@@ -4,7 +4,8 @@
   "description": "Part of The Odin Project's curriculum",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pushToGP":"git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
   "license": "ISC",
